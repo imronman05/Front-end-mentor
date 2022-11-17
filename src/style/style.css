@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    header {
+        @apply min-w-full flex items-center z-10 flex-col;
+    }
+    nav {
+        @apply container absolute z-10 max-w-full;
+    }
+    .wrap-nav {
+        @apply flex justify-between items-center relative lg:justify-start lg:px-20;
+    }
+    .logo {
+        @apply text-4xl text-white font-semibold block py-6;
+    }
+    .navigation {
+        @apply flex items-center px-5 md:px-0 md:w-full lg:px-0 lg:w-full;
+    }
+    #hamburger-menu{
+        @apply md:hidden lg:hidden;
+    }
+    #navbar-menu {
+        @apply absolute max-w-[91%] left-4 bg-white w-full top-full text-center rounded-lg overflow-scroll md:h-full md:static md:flex md:overflow-auto md:max-w-full md:justify-between md:bg-transparent lg:h-full lg:static lg:flex lg:overflow-auto lg:max-w-full lg:justify-between lg:bg-transparent;
+    }
+    .wrap-navbar-menu {
+        @apply border-b max-w-[80%] border-slate-300 mx-auto mb-9 md:max-w-[50%] md:flex md:flex-row md:border-0 md:mx-0 md:mb-0 md:items-center lg:flex lg:flex-row lg:max-w-full lg:border-0 lg:mx-0 lg:mb-0 lg:items-center;
+    }
+    .drop-down {
+        @apply flex items-center flex-col;
+    }
+    .navbar-link {
+        @apply text-2xl ml-6 flex items-center md:text-white md:text-xl md:mt-2 lg:text-white lg:mt-2 lg:text-xl
+    }
+    .imageDropdown {
+        @apply mt-1 ml-3
+    }
+    .ul-menu {
+        @apply bg-gray-500/[.1] w-full py-5 text-xl flex-col gap-3 rounded-lg text-slate-600 hidden md:absolute md:bg-white md:w-56 lg:absolute lg:bg-white lg:w-56 lg:text-xl;
+    }
+    .nav-button {
+        @apply flex justify-center items-center flex-col gap-6 lg:flex-row md:flex-row md:px-5 md:mt-2;
+    }
+    .container-hero-section{
+        @apply bg-[url('../assets/images/bg-pattern-intro-mobile.svg')] bg-no-repeat  bg-top-2 bg-16 rounded-bl-150 h-95 backdrop-brightness-200 md:w-full md:bg-11 md:bg-top-6 lg:w-full lg:bg-[url('../assets/images/bg-pattern-intro-desktop.svg')] lg:bg-11 lg:bg-top-5;
+    }
+    .wrap-hero-section {
+        @apply bg-gradient-to-b from-[#f87a58] via-[#f87a58] to-[#ff3d54] h-95 rounded-bl-150 opacity-90 flex justify-center items-center;
+    }
+    .hero-tittle {
+        @apply text-4xl mb-7 md:text-5xl lg:text-5xl;
+    }
+
+    .container-hero-button{
+        @apply flex justify-center gap-3 mt-28 md:mt-14 lg:mt-14;
+    }
+    .hero-button {
+        @apply py-3 px-4 bg-white text-[#f87a58] font-semibold rounded-150 lg:px-6 md:px-6;
+    }
+    .hero-button2 {
+        @apply py-3 px-4 border border-white text-white md:px-6 font-semibold rounded-150
+    }
+}

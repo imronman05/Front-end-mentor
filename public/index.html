@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | [Blogr]</title>
+</head>
+<body class="overflow-x-hidden">
+<header>
+  <nav>
+    <div class="wrap-nav">
+      <div class="px-5">
+        <a href="#" class="logo">Blogr</a>
+      </div>
+      <div class="navigation">
+        <img src="./assets/images/icon-hamburger.svg" alt="icon-hamburger" width="50" height="8" id="hamburger-menu">
+        <div id='navbar-menu' class="hidden h-0 py-0">
+          <div class="wrap-navbar-menu">
+            <ul class="mb-5 md:mb-0 lg:mb-0">
+              <li class="drop-down group">
+                <a href="#" class="navbar-link lg:group-hover:underline transition duration-300">Product
+                  <img src="./assets/images/icon-arrow-dark.svg" alt="" width="20" class="imageDropdown lg:w-3 lg:group-hover:rotate-180 transition duration-300">
+                </a>
+                <ul class="ul-menu dropDownElement md:top-20 md:left-40 lg:top-20 lg:left-60 lg:group-hover:flex lg:group-hover:left-60 transition duration-300">
+                  <li><a href="#">Overview </a></li>
+                  <li><a href="#">Pricing </a></li>
+                  <li><a href="#">Marketplace </a></li>
+                  <li><a href="#">Features </a></li>
+                  <li><a href="#">Integration </a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="mb-5 md:mb-0 lg:mb-0">
+              <li class="flex items-center flex-col drop-down group">
+                <a href="#" class="navbar-link lg:group-hover:underline transition duration-300">Company
+                  <img src="./assets/images/icon-arrow-dark.svg" alt="" width="20" class="imageDropdown lg:w-3 lg:group-hover:rotate-180 transition duration-300">
+                </a>
+                <ul class="ul-menu md:top-20 md:left-72 lg:top-20 lg:left-[21rem] dropDownElement lg:group-hover:flex lg:group-hover:left-[21rem] transition duration-300">
+                  <li>About</li>
+                  <li>Team</li>
+                  <li>Blog</li>
+                  <li>Careers</li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="mb-8 md:mb-0 lg:mb-0">
+              <li class="flex items-center flex-col drop-down group">
+                <a href="#" class="navbar-link lg:group-hover:underline transition duration-300">Connect
+                  <img src="./assets/images/icon-arrow-dark.svg" alt="" width="20" class="imageDropdown lg:w-3 lg:group-hover:rotate-180 transition duration-300">
+                </a>
+                <ul class="ul-menu md:top-20 md:left-[28rem] lg:top-20 lg:left-[31rem] dropDownElement lg:group-hover:flex lg:group-hover:left-[31rem] transition duration-300">
+                  <li>Contact</li>
+                  <li>Newsletter</li>
+                  <li>Linkedln</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-button">
+            <button class="px-6 py-2 text-2xl md:text-white md:tex-xl lg:text-white lg:text-xl hover:bg-[#f87a58] hover:text-white md:hover:bg-white md:hover:text-[#f87a58] lg:hover:bg-gradient-to-r from-slate-50 to-white rounded-150 lg:hover:text-[#f87a58] transition duration-300">Login</button>
+            
+            <button class="text-2xl bg-[#f87a58] py-2 px-6 rounded-150 text-white md:text-[#f87a58] md:bg-white md:text-xl lg:text-[#f87a58] lg:bg-white lg:text-xl hover:bg-[#ff7a85] hover:text-white transition duration-300">Sing Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+    <section class="container-hero-section">
+      <div class="wrap-hero-section">
+        <div class="text-center text-white">
+          <h1 class="hero-tittle">A modern publishing platform</h1>
+          <p class="text-2xl text-slate-100">Grow your audience and build your online brand</p>
+          <div class="container-hero-button">
+            <button class="hero-button hover:bg-[#ff7a85] hover:text-white transition duration-300">Start for Free</button>
+            <button class="hero-button2 hover:bg-white hover:text-[#f87a58] transition duration-300">Learn More</button>
+          </div>
+        </div>
+        </div>
+      </section>
+  <!-- Akhir Section -->
+</header>
+<main>
+  <article class="mt-16 w-full px-5 lg:mt-36">
+    <h1 class="text-center text-2xl mb-10 lg:text-3xl ">Designed for the future</h1>
+    <div class="flex flex-col-reverse lg:grid lg:grid-cols-2 lg:relative">
+      <div class="">
+        <div class="mt-8 text-center lg:text-start lg:px-16">
+          <h1 class="text-2xl">Introducing an extensible editor</h1>
+          <p class=" mt-5 text-1xl leading-relaxed px-10 text-slate-600 lg:px-0">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or change the looks of a blog.</p>
+          <h1 class="text-2xl lg:mt-16">Robust content management</h1>
+          <p class="mt-5 text-1xl leading-relaxed px-10 text-slate-600 lg:px-0">Flexible content management enables users to easily move through posts. Increase the usability of your blog by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+        </div>
+      </div>
+      <div>
+        <img src="./assets/images/illustration-editor-mobile.svg" alt="illustration-editor-mobile" width="100%" class="block md:w-[80%] md:mx-auto lg:hidden">
+        <img src="./assets/images/illustration-editor-desktop.svg" alt="illustration-editor-mobile" width="65%" class="hidden lg:block lg:absolute -top-48 -right-64">
+      </div>
+    </div>
+  </article>
+  <article class="w-full mt-56 h-95 md:h-[65vh] lg:h-auto bg-[#2c2d3f] rounded-bl-120 rounded-tr-120 lg:mt-56">
+    <div class="w-full rounded-tr-120 bg-[url('../assets/images/bg-pattern-circles.svg')] bg-20px bg-top-4 bg-no-repeat md:bg-22 md:bg-top-7 lg:bg-21 lg:bg-top-1">
+      <div class="lg:flex lg:items-center lg:h-96 lg:justify-center">
+      <img src="./assets/images/illustration-phones.svg" alt="" class="relative -top-36 lg:top-0 md:mx-auto" >
+        <div class="text-white px-5 mb-24 text-center md:mb-0 md:-mt-36 lg:text-start lg:w-[40%] lg:mb-0 lg:mt-0">
+          <h1 class="text-3xl lg:mt-0">State of the Art Infrastructure</h1>
+          <p class="mt-5 text-1xl leading-relaxed px-10 text-1xl text-slate-300 lg:px-0 lg:mt-0">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article class="w-full mt-5 text-center lg:grid lg:grid-cols-2 lg:relative lg:my-60">
+    <div>
+      <img src="./assets/images/illustration-laptop-mobile.svg" alt="" width="100%" class="block lg:hidden">
+      <img src="./assets/images/illustration-laptop-desktop.svg" alt="" width="60%" class="hidden lg:block lg:absolute -left-60 -top-48">
+    </div>
+    <div class="lg:text-start lg:w-[80%]">
+      <h1 class='text-2xl'>Free, open, simple</h1>
+      <p class="mt-5 text-1xl leading-relaxed px-10 text-1xl text-slate-600 lg:px-0">Blogr is a free and open source application backed by a large community of helpful developers. It supports features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+      <h1 class="text-2xl mt-10">Powerful tooling</h1>
+      <p class="mt-5 text-1xl leading-relaxed px-10 text-1xl text-slate-600 lg:px-0">Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but capable of producing even the most complicated sites.</p>
+    </div>
+  </section>
+  </main>
+<footer>
+  <div class="rounded-tr-120 text-center w-full bg-[#2c2d3f] py-14 mt-10 md:grid md:grid-cols-5 lg:grid lg:grid-cols-5">
+    <h1 class="text-4xl text-white font-semibold">Blogr</h1>
+    <div class="mt-10 md:mt-3 lg:mt-0">
+      <h3 class="text-white">Product</h3>
+      <ul class="mt-5 text-slate-400 leading-loose">
+        <li>Overview</li>
+        <li>Pricing</li>
+        <li>Marketplace</li>
+        <li>Features</li>
+        <li>Integration</li>
+      </ul>
+    </div>
+    <div class="mt-10 md:mt-3 lg:mt-0">
+      <h3 class="text-white">Company</h3>
+      <ul class="mt-5 text-slate-400 leading-loose">
+        <li>About</li>
+        <li>Team</li>
+        <li>Blog</li>
+        <li>Careers</li>
+      </ul>
+    </div>
+    <div class="mt-10 md:mt-3 lg:mt-0">
+      <h3 class="text-white">Connect</h3>
+      <ul class="mt-5 text-slate-400 leading-loose">
+        <li>Contact</li>
+        <li>Newsletter</li>
+        <li>Linkedln</li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="./js/index.js"></script>
+</body>
+</html>
